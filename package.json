@@ -1,0 +1,20 @@
+{
+  "name": "viw-hello",
+  "type": "module",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build":"rollup -c"
+},
+  "keywords": [],
+  "author": "Jari",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.0.2"
+  },
+  "dependencies": {
+    "three": "^0.135.0",
+    "web-ifc-viewer": "^1.0.216"
+  }
+}
